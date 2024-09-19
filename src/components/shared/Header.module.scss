@@ -1,0 +1,36 @@
+header {
+    border-bottom: 1px solid gray;
+}
+
+.logo_wrapper {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+    & > img {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+.converter_wrapper {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    & > div {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+
+        & > img {
+            width: 30px;
+            height: 30px;
+        }
+
+        & > p {
+            font-size: 16px;
+            color: black;
+        }
+    }
+}
