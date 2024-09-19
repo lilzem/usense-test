@@ -1,6 +1,6 @@
 import styles from "@/components/shared/CurrencyGroup.module.scss";
 
-import { FC, useState } from "react";
+import { FC } from "react";
 import Select from "../ui/Select";
 import { CURRENCIES } from "@/lib/constants";
 import { Input } from "@mui/material";
